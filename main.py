@@ -18,4 +18,4 @@ async def cal_post(request: Request):
     b = content['b']
     return {'content': content, 'result': a + b} #{'content': {'a': 5, 'b': 4}, 'result': 9}
 
-uvicorn.run(app)
+#uvicorn.run(app)
